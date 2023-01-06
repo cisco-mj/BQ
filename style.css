@@ -62,7 +62,7 @@ body{
 }
 .arrow-lable{
     color: whitesmoke;
-    margin-top: 10em;
+    margin-top: 19em;
 }
 .arrow{
     color: whitesmoke;
@@ -157,6 +157,9 @@ body{
     }
     .d-grid{
         width: 80%;
+    }
+    .arrow-lable{
+        margin-top: 7em;
     }
 
 }
