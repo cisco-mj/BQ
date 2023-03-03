@@ -75,10 +75,6 @@ p{
     color: #1e1e1e;
 }
 
-.button:hover{
-    width: 100px;
-    height: 100px;
-}
 
 .button_spotify:hover{
     background-color: #1DB954;
