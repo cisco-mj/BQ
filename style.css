@@ -10,11 +10,6 @@
     font-family: 'Questrial';
 }
 
-section{
-    display: block;
-    margin-top: -90px;
-}
-
 a{
     text-decoration: none;
 }
@@ -139,7 +134,7 @@ p{
 @media screen and (max-width: 800px) {
     
     .container.container_social{
-        display: block;
+        display: grid;
         text-align: center;
 
     }
@@ -147,4 +142,10 @@ p{
     .button{
         margin: 20px;
     }
+    
+     .section{
+        position: absolute;
+        top: 200px;
+    }
+    
 }
