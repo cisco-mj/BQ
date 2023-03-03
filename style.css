@@ -44,7 +44,7 @@ p{
 }
 
 .container.container_social{
-    margin-top: 2em;
+    margin-top: 1em;
     width: 70vw;
     height: 100px;
     display: flex;
@@ -138,6 +138,7 @@ p{
     .button{
         margin: 15px;
         width: 70vw;
+        height: 80px;
     }
     
      .section{
