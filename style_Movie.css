@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Questrial&display=swap');
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1e1e1e;
+    font-family: 'Questrial';
+}
+
+section{
+    display: flex;
+    justify-content: center;
+}
+
+.container{
+    position: absolute;
+    display: flex;
+    width: 90vw;
+    top: 18em;
+    transition: 0.3s;
+}
+
+.header{
+    position: absolute;
+    top: 4em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.header span{
+    fill: #FF0000;
+}
+
+.header h1{
+    margin: 13px;
+    color: white;
+}
+
+.button.btn_back{
+    position: relative;
+    margin-top: 20px;
+    padding: 5px 25px;
+    border: none;
+    outline: none;
+    border-radius: 50px;
+    color: #1e1e1e;
+    font-weight: bold;
+    background-color: #FF0000;
+    box-shadow: 0px 0px 20px #FF0000,
+                0px 0px 10px #FF0000,
+                0px 0px 5px #FF0000,
+                0px 0px 30px #FF0000;
+    transition: 0.1s;
+}
+
+.button:hover{
+    border: #FF0000 solid 3px;
+    background-color: transparent;
+    color: white;
+    box-shadow: none;
+}
+
+
+.card{
+   border-radius: 20px;
+}
+
+.card-img-top{
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    background-size: cover;
+}
+
+.btn{
+    position: relative;
+    width: 100%;
+    height: 45px;
+    color: #000000;
+    border-radius: 50px;
+    border: none;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.416);
+    top: 1em;
+    margin-bottom: 1em;
+    transition: 0.2s;
+}
+
+.btn:hover{
+    color: white;
+    box-shadow: inset 0px 0px 10px #000000a8;
+}
+
+.card.card_babydriver{
+    background-color: #e44b6d;
+}
+.card.card_avengers{
+    background-color: #10114d;
+    color: white;
+}
+.btn.btn_avengers{
+    color: white;
+}
+
+.dropdown-menu{
+    width: 100%;
+    background-color: #ffffff;
+}
+
+.card.card_johnwick{
+    background-color: #22134e;
+    color: white;
+}
+.btn.btn_johnwick{
+    color: white;
+}
+
+.card.card_6undergraound{
+    background-color: #a6a829;
+}
+
+
+@media screen and (max-width: 1400px) {
+    
+    .card{
+        height: auto;
+    }
+    .btn{
+        top: 0;
+        margin-top: 20px;
+        margin-bottom: 0;
+    }
+
+}
